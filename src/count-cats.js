@@ -16,7 +16,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
  function countCats(matrix) {
   const matrixFlat = matrix.flat();
-  console.log(matrixFlat);
   let n = 0;
   matrixFlat.forEach(elem => { if (elem === "^^") n++});
   return n;
